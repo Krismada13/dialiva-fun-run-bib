@@ -37,13 +37,11 @@ body{
   display:flex; align-items:center; justify-content:space-between;
   padding: 22px 0 18px;
 }
-.brand{
-  display:flex; align-items:center; gap:10px;
-  font-family:'Archivo Expanded', sans-serif;
-  font-weight:800; font-size:15px; letter-spacing:0.02em;
-  color:var(--blue-deep);
+.brand-logo{
+  height: 30px;
+  width: auto;
+  display: block;
 }
-.brand .dot{ width:9px;height:9px;border-radius:50%; background:var(--red); }
 .pill-date{
   font-size:12px; font-weight:700; letter-spacing:0.04em;
   background:var(--blue-deep); color:var(--soft);
