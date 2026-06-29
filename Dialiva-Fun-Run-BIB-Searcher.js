@@ -71,6 +71,41 @@ function handleSearch(){
   }, 700);
 }
 
+function saveScreenshot(){
+  const card = document.querySelector(".bib-card");
+  const label = document.getElementById("screenshotLabel");
+  const btn = document.getElementById("screenshotHint");
+ 
+  if(!card || typeof html2canvas === "undefined"){
+    alert("Gagal menyiapkan gambar. Coba tekan tombol screenshot bawaan HP-mu sebagai gantinya.");
+    return;
+  }
+ 
+  const originalLabel = label.textContent;
+  label.textContent = "Menyiapkan gambar...";
+  btn.style.pointerEvents = "none";
+ 
+  html2canvas(card, {
+    backgroundColor: "#FFFDF8",
+    scale: 2,
+    useCORS: true
+  }).then(canvas => {
+    const bibNumber = document.getElementById("r-bib").textContent.trim();
+    const link = document.createElement("a");
+    link.download = `BIB-${bibNumber}-Dialiva-Fun-Run-2026.png`;
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+ 
+    label.textContent = originalLabel;
+    btn.style.pointerEvents = "auto";
+  }).catch(err => {
+    console.error("Screenshot error:", err);
+    alert("Gagal menyimpan gambar. Coba tekan tombol screenshot bawaan HP-mu sebagai gantinya.");
+    label.textContent = originalLabel;
+    btn.style.pointerEvents = "auto";
+  });
+}
+
 function resetSearch(){
   document.getElementById("fullname").value = "";
   document.getElementById("phone").value = "";
