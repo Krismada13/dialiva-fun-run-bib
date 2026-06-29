@@ -240,6 +240,13 @@ h1.hero-title span{
   letter-spacing: 0.01em;
 }
 .bib-number .hash{ color: var(--red); font-size:0.55em; vertical-align: 18%; margin-right:2px; }
+.bib-name-tag{
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--blue-deep);
+  letter-spacing: 0.01em;
+}
 
 .bib-meta-grid{
   display:grid; grid-template-columns: 0.8fr 1fr 1fr;
