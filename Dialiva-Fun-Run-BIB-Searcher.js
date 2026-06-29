@@ -57,6 +57,7 @@ function handleSearch(){
 
     if(match){
       document.getElementById("r-bib").textContent = match.bib;
+      document.getElementById(r-bibname").textContent = match.bibName;
       document.getElementById("r-category").textContent = match.category;
       document.getElementById("r-regid").textContent = match.regid;
       document.getElementById("r-cot").textContent = match.cot;
