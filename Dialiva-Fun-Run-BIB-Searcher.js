@@ -20,8 +20,11 @@ const DUMMY_REGISTRANTS = [
   { name:"Baharuddin Yusuf", bibName:"Yusuf", phone:"0882008618338", personalid:"3404101612970002", jerseySize:"M", bib:"M-018", regid:"M-018", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Emi Lestari", bibName:"E", phone:"08818627961", personalid:"3404125205970004", jerseySize:"M", bib:"F-019", regid:"F-019", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Vika Puspita Sari", bibName:"Vika Puspita Sari", phone:"085877166475", personalid:"3404117101990001", jerseySize:"S", bib:"F-020", regid:"F-020", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Khairina Zahra Putri", bibName:"Khai", phone:"0895375788857", personalid:"3404116509020001", jerseySize:"S", bib:"F-020", regid:"F-021", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Chicy Naheriza", bibName:"Princess Sisiee", phone:"'0895401652588", personalid:"1703145202030001", jerseySize:"XL", bib:"F-022", regid:"F-021", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Khairina Zahra Putri", bibName:"Khai", phone:"0895375788857", personalid:"3404116509020001", jerseySize:"S", bib:"F-021", regid:"F-021", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Chicy Naheriza", bibName:"Princess Sisiee", phone:"'0895401652588", personalid:"1703145202030001", jerseySize:"XL", bib:"F-022", regid:"F-022", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Iswar Alparisi", bibName:"Iswar NA", phone:"085156234998", personalid:"7303080905000002", jerseySize:"S", bib:"M-023", regid:"M-023", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Ms No Name", bibName:"Ms No Name", phone:"0857024300599", personalid:"", jerseySize:"L", bib:"M-024", regid:"M-024", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Mikaila Nichiwa Yukimura Najwa", bibName:"Nichik", phone:"'085647967830", personalid:"3404010304090002", jerseySize:"S", bib:"F-025", regid:"F-025", category:"5K", cot:"00:00:00", status:"Terverifikasi" }
 ];
 
 function normalizePhone(p){
