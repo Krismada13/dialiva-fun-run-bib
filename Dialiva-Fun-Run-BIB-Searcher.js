@@ -24,7 +24,12 @@ const DUMMY_REGISTRANTS = [
   { name:"Chicy Naheriza", bibName:"Princess Sisiee", phone:"'0895401652588", personalid:"1703145202030001", jerseySize:"XL", bib:"F-022", regid:"F-022", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Iswar Alparisi", bibName:"Iswar NA", phone:"085156234998", personalid:"7303080905000002", jerseySize:"S", bib:"M-023", regid:"M-023", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Ms No Name", bibName:"Ms No Name", phone:"0857024300599", personalid:"", jerseySize:"L", bib:"M-024", regid:"M-024", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Mikaila Nichiwa Yukimura Najwa", bibName:"Nichik", phone:"'085647967830", personalid:"3404010304090002", jerseySize:"S", bib:"F-025", regid:"F-025", category:"5K", cot:"00:00:00", status:"Terverifikasi" }
+  { name:"Mikaila Nichiwa Yukimura Najwa", bibName:"Nichik", phone:"'085647967830", personalid:"3404010304090002", jerseySize:"S", bib:"F-025", regid:"F-025", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Oktaf Ardi Sutanto", bibName:"OKTAF", phone:"08995847107", personalid:"3402163110910002", jerseySize:"M", bib:"M-026", regid:"M-026", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Nugroho", bibName:"NUGROHO", phone:"085701502293", personalid:"3308101211950005", jerseySize:"S", bib:"M-027", regid:"M-027", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Andi Wicahyanto Warsito", bibName:"Andi W. Warsito", phone:"085228623150", personalid:"3404081412810003", jerseySize:"L", bib:"M-028", regid:"M-028", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Raushan Fikri El Qaddafi", bibName:"Dafi", phone:"085228623150", personalid:"340408201020140003", jerseySize:"XS", bib:"M-029", regid:"M-029", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Andrias Fio Aprianto", bibName:"Mas Fio", phone:"085766793143", personalid:"1605032104020005", jerseySize:"L", bib:"M-030", regid:"M-030", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
 ];
 
 function normalizePhone(p){
