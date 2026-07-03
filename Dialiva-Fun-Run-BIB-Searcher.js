@@ -17,7 +17,7 @@ const DUMMY_REGISTRANTS = [
   { name:"Ferdian Achmad", bibName:"Ferdian", phone:"'08156586896", personalid:"3404111403850002", jerseySize:"XXXL", bib:"M-015", regid:"M-015", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Agustinus Deri", bibName:"Agustinus Deri", phone:"085702438507", personalid:"6107042408990003", jerseySize:"L", bib:"M-016", regid:"M-016", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Miss No Name", bibName:"Miss No Name", phone:"085702438599", personalid:"", jerseySize:"L", bib:"F-017", regid:"F-017", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Baharuddin Yusuf", bibName:"Yusuf", phone:"0882008618338", personalid:"3404101612970002", jerseySize:"M", bib:"M-018", regid:"M-018", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Baharuddin Yusuf", bibName:"Yusuf", phone:"085725686628", personalid:"3404101612970002", jerseySize:"M", bib:"M-018", regid:"M-018", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Emi Lestari", bibName:"E", phone:"08818627961", personalid:"3404125205970004", jerseySize:"M", bib:"F-019", regid:"F-019", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Vika Puspita Sari", bibName:"Vika Puspita Sari", phone:"085877166475", personalid:"3404117101990001", jerseySize:"S", bib:"F-020", regid:"F-020", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Khairina Zahra Putri", bibName:"Khai", phone:"0895375788857", personalid:"3404116509020001", jerseySize:"S", bib:"F-021", regid:"F-021", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
