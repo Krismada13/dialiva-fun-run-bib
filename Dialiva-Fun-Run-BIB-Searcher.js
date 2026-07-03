@@ -9,7 +9,7 @@ const DUMMY_REGISTRANTS = [
   { name:"Nurismi", bibName:"Ismi", phone:"082339078095", personalid:"7604046501010006", jerseySize:"L", bib:"F-007", regid:"F-007", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Khoirun Nisa Widyastuti", bibName:"K. Nisa W", phone:"0895401096097", personalid:"3404115708970001", jerseySize:"L", bib:"F-008", regid:"F-008", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Siti Nurlaily Apriyatun", bibName:"Nurlaily", phone:"0895391208712", personalid:"3404117004980003", jerseySize:"S", bib:"F-009", regid:"F-009", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Isnaini Nurrohmah", bibName:"Isnaini", phone:"0895401096097", personalid:"3404116711940002", jerseySize:"XXL", bib:"F-010", regid:"F-010", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Isnaini Nurrohmah", bibName:"Isnaini", phone:"089687592204", personalid:"3404116711940002", jerseySize:"XXL", bib:"F-010", regid:"F-010", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Muhammad Shodiq Nur", bibName:"M Shodiq", phone:"0895391208712", personalid:"3404112703970001", jerseySize:"S", bib:"M-011", regid:"M-011", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Rohmatul Ummah", bibName:"UMMAH", phone:"082224162895", personalid:"3404115711970002", jerseySize:"XL", bib:"F-012", regid:"F-012", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Syaeful Ichwan", bibName:"Ichwan", phone:"08981624782", personalid:"3273220401950001", jerseySize:"M", bib:"M-013", regid:"M-013", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
@@ -30,6 +30,8 @@ const DUMMY_REGISTRANTS = [
   { name:"Andi Wicahyanto Warsito", bibName:"Andi W. Warsito", phone:"085228623150", personalid:"3404081412810003", jerseySize:"L", bib:"M-028", regid:"M-028", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Raushan Fikri El Qaddafi", bibName:"Dafi", phone:"085228623150", personalid:"340408201020140003", jerseySize:"XS", bib:"M-029", regid:"M-029", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Andrias Fio Aprianto", bibName:"Mas Fio", phone:"085766793143", personalid:"1605032104020005", jerseySize:"L", bib:"M-030", regid:"M-030", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Amrul Falah Utomo", bibName:"Arul", phone:"082138974817", personalid:"5303050501080003", jerseySize:"M", bib:"M-031", regid:"M-031", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Muhammad Aslam Hiba", bibName:"Muhammad Aslam", phone:"081215875061", personalid:"347131501010001", jerseySize:"M", bib:"M-032", regid:"M-032", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
 ];
 
 function normalizePhone(p){
