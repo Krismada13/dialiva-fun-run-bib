@@ -37,6 +37,8 @@ const DUMMY_REGISTRANTS = [
   { name:"Ratna Dyah Hartanti", bibName:"Ratna", phone:"087887981053", personalid:"3471137003970001", jerseySize:"", bib:"F-035", regid:"F-035", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Novaldi Putra Yuansyah", bibName:"ALDI", phone:"083831321344", personalid:"3404041611070002", jerseySize:"", bib:"M-036", regid:"M-036", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Berkat Soroinama Gea", bibName:"Gea", phone:"082286488419", personalid:"1278040612070002", jerseySize:"", bib:"M-037", regid:"M-037", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Agus Triharyanto", bibName:"Gus Tri", phone:"081326493033", personalid:"3404132109890001", jerseySize:"", bib:"M-038", regid:"M-038", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Jayanti", bibName:"Kak jeyy", phone:"087868382561", personalid:"1902015901050001", jerseySize:"XS", bib:"F-039", regid:"F-039", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
 ];
 
 function normalizePhone(p){
