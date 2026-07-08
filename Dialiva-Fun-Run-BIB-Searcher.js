@@ -43,6 +43,9 @@ const DUMMY_REGISTRANTS = [
   { name:"Suyanto", bibName:"SUYANTO", phone:"08179446920", personalid:"340415100764001", jerseySize:"L", bib:"M-041", regid:"M-041", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Ery Kaustanti", bibName:"ERRIE", phone:"08121501064", personalid:"3494065304900001", jerseySize:"S", bib:"F-042", regid:"F-042", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Alya Zahida", bibName:"ALYA", phone:"087821038075", personalid:"3494065304900001", jerseySize:"S", bib:"F-043", regid:"F-043", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Andreas Chandra Yogyaswara Budiono", bibName:"Andreas Chandra", phone:"081222552282", personalid:"33403030910900002", jerseySize:"", bib:"M-044", regid:"M-044", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Noorma Bunga Aniri", bibName:"Noorma Aniri", phone:"08557661600", personalid:"3502185610860001", jerseySize:"", bib:"F-046", regid:"F-046", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Nadhira Yasmin Raudha", bibName:"Nadhira Y.R", phone:"08557661600", personalid:"3306095205110003", jerseySize:"", bib:"F-047", regid:"F-047", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
 ];
 
 function normalizePhone(p){
