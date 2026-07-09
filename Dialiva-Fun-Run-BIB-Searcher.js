@@ -58,7 +58,7 @@ const DUMMY_REGISTRANTS = [
   { name:"Siti Nur Anggraini", bibName:"Anggi", phone:"089630780444", personalid:"3601196008960004", jerseySize:"", bib:"F-056", regid:"F-056", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Dhamang Pangaribawa", bibName:"DHMNG", phone:"087839256158", personalid:"3404112704980001", jerseySize:"", bib:"M-057", regid:"M-057", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Desi Sri Rahayu", bibName:"DESI", phone:"085729702208", personalid:"3403114912910001", jerseySize:"M", bib:"F-058", regid:"F-058", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
-  { name:"Imeylda", bibName:"IMEYLDA", phone:"085729702208", personalid:"3403114912910001", jerseySize:"XL", bib:"F-059", regid:"F-059", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
+  { name:"Imeylda Cahyaning Buana", bibName:"IMEYLDA", phone:"0882007246572", personalid:"3403114912910001", jerseySize:"XL", bib:"F-059", regid:"F-059", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
   { name:"Padmoko Broto Sutanto", bibName:"Broto", phone:"089611203999", personalid:"3402161609900001", jerseySize:"", bib:"M-060", regid:"M-060", category:"5K", cot:"00:00:00", status:"Terverifikasi" },
 ];
 
